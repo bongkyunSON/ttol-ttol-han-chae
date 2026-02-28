@@ -1,7 +1,9 @@
 ```mermaid
 flowchart LR
-  A[Phase 1<br/>Data Pipeline<br/>(부동산원 + 국토부)] --> B[Phase 2<br/>Market Analysis Layer<br/>(주간동향/매수우위/거래)]
-  B --> C[Phase 3<br/>Feature Engineering<br/>(단지/면적 지표)]
-  C --> D[Phase 4<br/>Ranking & Scoring<br/>(서열/가중치)]
-  D --> E[Phase 5<br/>Recommendation Layer<br/>(5억 추천 + 근거)]
-  E --> F[Phase 6<br/>Expansion<br/>(정책/경매/포트폴리오)]
+  A["Phase 1 - Public Data Pipeline(신뢰 가능한 부동산 데이터 인프라 구축)"]
+  B["Phase 2 - Market Analysis (시장 분석 레이어 / 부동산 시장 흐름을 구조화 )"]
+  C["Phase 3 - Investment Feature Engineering (단지 / 면적 / 거래 지표)"]
+  D["Phase 4 - Ranking & Scoring Engine (데이터 기반 부동산 서열 구조화)"]
+  E["Phase 5 - Recommendation (투자 판단을 자연어 인터페이스로 제공)"]
+  F["Phase 6 - Expansion (정책 / 경매 / 포트폴리오)"]
+```
