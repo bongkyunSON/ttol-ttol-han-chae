@@ -230,3 +230,4 @@ docker-compose-ollama.yml
 *.json
 *.xlsx
 PIPELINE_HANDOFF.md
+data_preprocess.ipynb
